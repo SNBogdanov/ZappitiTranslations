@@ -5,12 +5,12 @@
   <Value Id="ExportTypes" iPhone="iPhone" Dune="Dune" />
   <Value Id="SettingsDefault" Header="Default" />
   <Value Id="SettingsAdvancedOptions" Header="Advanced Options" />
-  <Value Id="SettingsTypeExport" ExportDune="Dune export file:" ExportITunes="iTunes export file:" Body="Define your export file." DoYouHaveADune="I have a Dune" DoYouHaveAniPhone="I have an iPhone / iPad / iPod" DeviceType="Device :" Primary="Priority" Secondary="Secondary" Audio="Audio :" Subtitle="Subtitle :" Encode="Encoding parameter :" SubtitleRule="Show subtitles :" />
+  <Value Id="SettingsTypeExport" ExportDune="Dune export file:" ExportITunes="iTunes export file:" Body="Define your export file." DoYouHaveADune="I have a Zappiti Player / a Dune HD" DoYouHaveAniPhone="I have an iPhone / iPad / iPod" DeviceType="Device :" Primary="Priority" Secondary="Secondary" Audio="Audio :" Subtitle="Subtitle :" Encode="Encoding parameter :" SubtitleRule="Show subtitles :" />
   <Value Id="SettingsIsNFS" Content="NFS protocol" />
   <Value Id="SettingsUserName" Text="Login :" />
   <Value Id="SettingsUserPassword" Text="Password :" />
   <Value Id="MainScrapPicturesTvShow" Content="Background picture" />
-  <Value Id="Export_XML" CreateGlobalizationCustomCommand="File generation internationalization" iPhoneItemExportCustomCommand="File generation iTunes" ConfigXmlGeneratorCommand="Export Configuration" MoviesXmlFileGeneratorCommand="Export movies" AbcXmlFileGeneratorCommand="Export Base" TvShowsXmlFileGeneratorCommand="Export Series" CategoriesXmlFileGeneratorCommand="Export categories" RecentsXmlFileGeneratorCommand="Export recent" />
+  <Value Id="Export_XML" CreateGlobalizationCustomCommand="File generation internationalization" iPhoneItemExportCustomCommand="File generation iTunes" ConfigXmlGeneratorCommand="Export configuration" MoviesXmlFileGeneratorCommand="Export movies" AbcXmlFileGeneratorCommand="Export base" TvShowsXmlFileGeneratorCommand="Export series" CategoriesXmlFileGeneratorCommand="Export categories" RecentsXmlFileGeneratorCommand="Export recent" />
   <Value Id="SettingsIsXmlExport" Text="Xml default" />
   <Value Id="SettingsTabExport" Header="Export" />
   <Value Id="SettingsFolders" Text="Your folders :" />
@@ -111,7 +111,7 @@
   <Value Id="EditBrowseFilename" Content="Browse" />
   <Value Id="EditFilename" Text="Path Media" />
   <Value Id="EditSubTitle" Text="Subtitles" />
-  <Value Id="EditGroupTitle" Text="Group Name" />
+  <Value Id="EditGroupTitle" Text="Group name" />
   <Value Id="EditGroupChilds" Text="Members" />
   <Value Id="EditGroupSortByData" Content="Sort by date" />
   <Value Id="EditGroupMoveUp" Content="Move Up" />
@@ -139,26 +139,22 @@
   <Value Id="ABCMenuContextEdit" Header="Edit ..." />
   <Value Id="ABCMenuContextReset" Header="Reset" />
   <Value Id="DatabaseUpdating" Text="Update the database ..." />
-  <Value Id="EditGroupSortByName" Content="Sort by Title" />
+  <Value Id="EditGroupSortByName" Content="Sort by title" />
   <Value Id="SelectPictureTabHeader" Folder="Cover front" Background="Background" />
   <Value Id="SettingsTabFolders" Header="Files" />
-  <Value Id="SettingsTabOthers" Header="Other" SendErrorReport="Automatically send a report in the developers when an error occurs." />
+  <Value Id="SettingsTabOthers" Header="Other" SendErrorReport="Automatically send a report in the developers when an error occurs." Recents="Number of days to take into account recent:" />
   <Value Id="SettingsTabScrapers" Header="Scrapers" MovieScraper="Movies:" MoviePictureScraper="Images of films:" TVShowScraper="Series:" TVShowPictureScraper="Images of series:" ScrapOnStarWindows="Start scanning files at application launch" />
   <Value Id="GroupContextState" Seen="Seen" Ongoing="Ongoing" Unseen="Unseen" Stateless="Stateless" />
   <Value Id="EditSize" Text="Size" />
   <Value Id="Loading" Text="Loading ..." />
   <Value Id="NoTitleFoundToScrap" Text="No corresponding film" />
-  <Value Id="FiltersMenuAll" Text="ALL" />
-  <Value Id="FiltersMenuSeen" Text="SEEN" />
-  <Value Id="FiltersMenuUnseen" Text="UNSEEN" />
-  <Value Id="FiltersMenuOngoing" Text="ONGOING" />
   <Value Id="Prepare_Application" Content="Application Configuration" SettingsLoading="Loading the configuration" ScanningAllFiles="Scanning files" DataBaseLoading="Database loading" DataBaseCleanUp="Database cleanup" EnablingFeatureBrowserEmulation="Enabling browser emulation feature." />
-  <Value Id="WizardWelcome" Body="Welcome.[br][br]This wizard will help you configure Zappiti.[br][br]Click the &quot;Where are your files&quot; button to tell Zappiti where your files are." AddMovies="Where are your files &gt;&gt;" Close="Close" Header="Setup Wizard" />
+  <Value Id="WizardWelcome" Body="Welcome.[br][br]This wizard will help you configure Zappiti.[br][br]Click the &quot;Where are your files&quot; button to tell Zappiti where your media files are (Movies, TV Shows, Musics)." Close="Close" Header="Setup Wizard" AddFiles="Where are your files &gt;&gt;" />
   <Value Id="WizardAddLocalLocation" Name="Add a local folder" Description="- Internal hard drive of this computer [br] - External hard drive connected to USB / eSata this computer [br] - Hard drive in a docking station connected to this computer via USB / eSata [br] - Dune Drive connected USB Slave to this computer" Header="Local Folders" Tips="Tips: You can choose to share these files on your local network, or accessed directly with Dune in the case of USB device." Folders="Local drives / USB Devices" />
   <Value Id="WizardAddNetworkLocation" Name="Add a shared network folder" Description="- Internal hard drive of the networked Dune [br] - External Hard of Dune networked [br] - NAS server [br] - Other remote computer on the network [br] - Network Shared Folder [br] - network hard drives" Header="Shared network folders, NAS ..." Tips="Tips: You can buy USB, NAS, etc. on the site of HD LAND." Folders="Network locations" />
-  <Value Id="WizardWhereAreYourMovies" Header="Where are your files?" Body="Select one of the options below to indicate where your media files are." Back="&lt;&lt; Previous" Close="Close" />
-  <Value Id="WizardAddLocation" Body="Drag and drop the folders you want to add to the list on the right." YourFolders="Your video files" Next="Next &gt;&gt;" Back="&lt;&lt; Previous" Close="Close" />
-  <Value Id="WizardAddAnotherLocation" Header="Add another location?" Next="Next &gt;&gt;" YourFolders="Summary of your video files" Close="Close" />
+  <Value Id="WizardWhereAreYourFiles" Header="Where are your files?" Body="Select one of the options below to indicate where your media files are." Back="&lt;&lt; Previous" Close="Close" />
+  <Value Id="WizardAddLocation" Body="Drag and drop the folders you want to add to the list on the right." YourFolders="Your files" Next="Next &gt;&gt;" Back="&lt;&lt; Previous" Close="Close" />
+  <Value Id="WizardAddAnotherLocation" Header="Add another location?" Next="Next &gt;&gt;" YourFolders="Summary of your folders" Close="Close" />
   <Value Id="FolderDataTemplate" Edit="Change" Delete="Remove" />
   <Value Id="WizardRewriteLocationUrl" Header="Path selection" Body="Choose the location of this folder where the Dune will have access to it: [br](Please specify where this folder will be placed in the end.)" Back="&lt;&lt; Previous" Next="Next &gt;&gt;" ExternLabel="On an external hard drive connected to the Dune HD" NetworkLabel="On a NAS server, network folder or a shared hard drive of this PC" UnknowLabel="Custom" Close="Close" InternLabel="On an internal hard disk of the Dune HD" />
   <Value Id="LocalRewriteUrlEngineView" Body="This folder must be shared on your network to allow access for your Dune." IAccept="I agree to share this folder." />
@@ -172,7 +168,7 @@
   <Value Id="WizardInstallMpcPlayer" Header="Installing MPC - Home Cinema" Body="Installing, please wait..." Close="Close" Completed="Congratulations, MPC - Home Cinema installed successfully." Failed="Install failed, sorry." />
   <Value Id="MpcPlayerConfigView" Download="Download and install MPC - Home Cinema" PlayerPath="Path:" Browse="Browse..." />
   <Value Id="SettingsTabInterface" Header="Interface" Language="Language :" Background="Custom background" GlassShow="Show glass effect" ShowHeader="Show cover top front" SeenUnseen="Display watched state" DynamicZoom="Icons with dynamic zoom" SelectionBox="Dynamic contour" Theme="Theme :" />
-  <Value Id="TaskManagerView" Header="Spots being" Close="Close" />
+  <Value Id="TaskManagerView" Header="Current jobs" Close="Close" />
   <Value Id="PlayTask" Header="Opening a video" />
   <Value Id="DownloadVcdTask" Header="Download VirtualCloneDrive" />
   <Value Id="InstallVcdTask" Header="Installing VirtualCloneDrive" />
@@ -196,8 +192,8 @@
   <Value Id="RescrapSelect" Content="Select" />
   <Value Id="WizardFinish" Header="Configuration complete" Body="Configuration of Zappiti Media Center is complete." Close="Close" Back="&lt;&lt; Previous" />
   <Value Id="WizardConfigureExportDevice" Header="Do you have any devices?" Body="Select the devices you own :" Back="&lt;&lt; Previous" Next="Next &gt;&gt;" Close="Close" />
-  <Value Id="WizardConfigureDuneExport" Header="Dune configuration" Body="Where to export your data?" Back="&lt;&lt; Previous" Next="Next &gt;&gt;" Close="Close" />
-  <Value Id="WizardConfigureITunesExport" Header="Configuration for iTunes" Body="Where to export your data?" Back="&lt;&lt; Previous" Next="Next &gt;&gt;" Close="Close" />
+  <Value Id="WizardConfigureDuneExport" Header="Media Player export configuration" Body="Where to export your data and generate Zappiti access for your Dune HD / Zappiti Player? Zappiti will create a &quot;_Zappiti&quot; folder to access Zappiti from your Media Player (Dune HD or Zappiti Player)." Back="&lt;&lt; Previous" Next="Next &gt;&gt;" Close="Close" />
+  <Value Id="WizardConfigureITunesExport" Header="Configuration for iTunes (iPhone / iPad)" Body="Where to export your data?" Back="&lt;&lt; Previous" Next="Next &gt;&gt;" Close="Close" />
   <Value Id="GroupContext" GroupTo="Group..." ChangePicture="Change..." Delete="Delete it" Edit="Edit ..." Play="Play ..." Encode="Encode" DeleteEncode="Delete the encoded file" />
   <Value Id="EncodeTask" Header="Encoding" />
   <Value Id="EncodingTask" Header="Current encoding" />
